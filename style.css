@@ -10,6 +10,7 @@
 body{
     background-color: rgb(38, 31, 41);
     color: rgb(128, 128, 128);
+    display: flex;
 }
 
 nav{
@@ -20,16 +21,21 @@ nav{
     width: 15%;   
 }
 
-nav h2{
+.app h2,
+.personal h2{
     font-weight: 100;
     font-size: 1.1rem;
 }
 
-nav ul{
+.app ul,
+.personal ul{
     margin-bottom: 2rem;
 }
 
-nav ul li a{
+
+.app ul li a,
+.personal ul li a,
+.create-playlist a{
     margin:0.3rem 0;
     display: inline-block;
     width: 100%;
@@ -38,14 +44,191 @@ nav ul li a{
     /* color: white; */
 }
 
-nav ul li a i{
+.app ul li a i,
+.personal ul li a i,
+.create-playlist a i{
     margin:1rem 1.2rem;
     transition: all 0.3s ease;
 }
 
-nav ul li a:hover{
+.create-playlist{
+    transform: translateY(200px);
+}
+
+.app ul li a:hover,
+.personal ul li a:hover,
+.create-playlist a:hover{
     background-color: rgb(89, 89, 243);
     box-shadow: 0 0 10px rgba(89,89,243,0.4);
     border-radius: 0.3rem;
     color:#fff;
 }
+
+.left i,
+.right i{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.search-container{
+    /* background-color:red; */
+    height:5vh;
+    display: flex;
+    padding:0 7rem;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.searchBar{
+    margin-left: 2.2rem;
+    margin-right: 25rem;
+    background-color: rgb(38, 31, 41);
+    width:60%;
+    padding: .125rem;
+    height:70%;
+}
+
+.searchBar_search{
+    cursor: pointer;
+    margin:1rem;
+}
+
+
+.searchBar_input{
+    background-color:rgb(38, 31, 41);
+    color:rgb(128, 128, 128);
+    border:none;
+    outline: none;
+    font-size: 1.2rem;
+    width:92%;
+}
+
+.login{
+    margin-right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .play-control{
+    background-color:black;
+}
+
+.play-control ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.play-control ul li {
+    font-size: 1.5rem;
+}
+
+.play-control .fa-play{
+    color:rgba(248, 248, 248, 0.815);
+} */
