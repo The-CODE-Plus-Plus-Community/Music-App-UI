@@ -71,12 +71,12 @@ nav{
 }
 
 .search-container{
-    /* background-color:red; */
+    /* background-color:grey */
     height:5vh;
     display: flex;
     padding:0 7rem;
     align-items: center;
-    flex-grow: 1;
+    width: 100%;
 }
 
 .searchBar{
@@ -100,35 +100,136 @@ nav{
     border:none;
     outline: none;
     font-size: 1.2rem;
-    width:92%;
+    width:80%;
 }
 
 .login{
     margin-right: 2rem;
 }
 
+.explore-new{
+    /* background-color:red; */
+    margin:2rem 0 ;
+    padding-left: 8rem;
+}
+
+.explore-new h2{
+    margin: 1rem 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:2px;
+    color: white;
+}
+
+.explore-new h3{
+    color: white;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.explore-new h4{
+    font-weight: 100;
+}
+
+.cards{
+    display:flex;
+}
+
+.cards .card{
+    margin-right:3rem ;
+}
+
+.cards .card img{
+    width:180px;
+    height:180px;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px rgba(179, 159, 159, 0.2); 
+}
+
+.popular_mood{
+    display:flex;
+}
+
+.popular{
+    margin-left: 8rem;
+    /* background-color: red; */
+    width: 45%;
+}
+
+.popular h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.popular__card{
+    background-color:rgb(56, 40, 63);
+    border-radius: 7px;
+    margin-bottom:1rem;
+    display:flex;
+    align-items: center;
+}
+
+.popular__card img{
+    margin: 5px 5px 5px 20px;
+    width:40px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.popular__card .sl_no{
+    color:rgba(255, 255, 255, 0.801);
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.popular__card .song_name{
+    margin:0 20rem 0 2.2rem;
+    color:rgba(255, 255, 255, 0.712);
+}
+
+.popular__card .song_duration{
+    margin:0 2rem;
+}
+
+.popular__card .song_more{
+    color: rgba(255, 255, 255, 0.795);
+    cursor:pointer;
+}
+
+.mood{
+    margin-left: 4rem;
+    /* background-color: red; */
+    width:45%;
+}
+
+.mood h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.mood .row-1,
+.mood .row-2{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:45%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mood .mood-card{
+    background-color:rgb(56, 40, 63);
+    color:rgba(255, 255, 255, 0.829);
+    display:flex;
+    height: 90%;
+    border-radius: 0.5rem;
+    width:45%;
+    margin: 0 1.5rem 1.5rem 0;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
