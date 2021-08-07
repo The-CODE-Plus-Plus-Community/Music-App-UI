@@ -17,8 +17,13 @@ nav{
     background-color: rgb(24, 26, 34);
     border-right: 1px solid rgb(128, 128, 128);
     height: 100vh;
-    padding:2rem;
+    /* padding:2rem; */
     width: 15%;   
+}
+
+.personal,
+.app{
+    padding: 2rem 2rem 0 2rem;
 }
 
 .app h2,
@@ -27,10 +32,6 @@ nav{
     font-size: 1.1rem;
 }
 
-.app ul,
-.personal ul{
-    margin-bottom: 2rem;
-}
 
 
 .app ul li a,
@@ -52,6 +53,7 @@ nav{
 }
 
 .create-playlist{
+    margin:0 2rem;
     transform: translateY(200px);
 }
 
@@ -64,6 +66,30 @@ nav{
     color:#fff;
 }
 
+.play-control{
+    transform: translateY(235%);
+    height:10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:black;
+}
+
+.play-control i{
+    cursor:pointer;
+    font-size: 1.5rem;
+}
+
+.play-control .pause{
+    color:white;
+}
+
+.play-control .backward,
+.play-control .forward{
+    color:rgba(255, 255, 255, 0.63);
+}
+
+/* right side  */
 .left i,
 .right i{
     margin: 0 1rem;
@@ -231,105 +257,3 @@ nav{
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .play-control{
-    background-color:black;
-}
-
-.play-control ul{
-    display: flex;
-    justify-content: space-around;
-}
-
-.play-control ul li {
-    font-size: 1.5rem;
-}
-
-.play-control .fa-play{
-    color:rgba(248, 248, 248, 0.815);
-} */
