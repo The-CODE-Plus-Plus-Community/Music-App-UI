@@ -17,8 +17,13 @@ nav{
     background-color: rgb(24, 26, 34);
     border-right: 1px solid rgb(128, 128, 128);
     height: 100vh;
-    padding:2rem;
+    /* padding:2rem; */
     width: 15%;   
+}
+
+.personal,
+.app{
+    padding: 2rem 2rem 0 2rem;
 }
 
 .app h2,
@@ -27,10 +32,6 @@ nav{
     font-size: 1.1rem;
 }
 
-.app ul,
-.personal ul{
-    margin-bottom: 2rem;
-}
 
 
 .app ul li a,
@@ -52,6 +53,7 @@ nav{
 }
 
 .create-playlist{
+    margin:0 2rem;
     transform: translateY(200px);
 }
 
@@ -64,6 +66,30 @@ nav{
     color:#fff;
 }
 
+.play-control{
+    transform: translateY(235%);
+    height:10%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:black;
+}
+
+.play-control i{
+    cursor:pointer;
+    font-size: 1.5rem;
+}
+
+.play-control .pause{
+    color:white;
+}
+
+.play-control .backward,
+.play-control .forward{
+    color:rgba(255, 255, 255, 0.63);
+}
+
+/* right side  */
 .left i,
 .right i{
     margin: 0 1rem;
@@ -231,105 +257,58 @@ nav{
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .play-control{
+.song-control {
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    transform: translateY(40px);
+    height: 10%;
+    width:109%;
     background-color:black;
 }
 
-.play-control ul{
+.song-control i{
+    font-size:1.5rem;
+}
+
+.song-control .song-control-detail {
     display: flex;
+    align-items:center; 
     justify-content: space-around;
 }
 
-.play-control ul li {
-    font-size: 1.5rem;
+.song-control img{
+    height: 50px;
+    width: 50px;
+    margin: 0 1rem;
+    border-radius: 0.5rem;
 }
 
-.play-control .fa-play{
-    color:rgba(248, 248, 248, 0.815);
-} */
+.song-control-detail .song-details h3{
+    color: white;
+    font-size:1rem;
+    font-family:'Ubuntu',sans-serif ;
+    letter-spacing:2px;
+}
+
+.song-control-detail .song-details h4{
+    font-size:0.7rem;
+}
+
+.song-control .song-control-detail span{
+    margin: 0 2rem;
+}
+
+.song-control .song-duration-covered{
+    height: 0.3rem;
+    width: 600px;
+    border-radius:1rem ;
+    background-color:rgb(89, 89, 243);
+    box-shadow: 0 0 10px 0.5px rgb(89, 89, 243);
+}
+.song-control .song-duration{
+    width: 300px;
+    border-radius:1rem;
+    background-color:grey;
+    height: 0.3rem;
+}
