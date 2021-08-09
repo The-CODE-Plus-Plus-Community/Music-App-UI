@@ -257,3 +257,58 @@ nav{
     justify-content: center;
 }
 
+.song-control {
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    transform: translateY(40px);
+    height: 10%;
+    width:109%;
+    background-color:black;
+}
+
+.song-control i{
+    font-size:1.5rem;
+}
+
+.song-control .song-control-detail {
+    display: flex;
+    align-items:center; 
+    justify-content: space-around;
+}
+
+.song-control img{
+    height: 50px;
+    width: 50px;
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+}
+
+.song-control-detail .song-details h3{
+    color: white;
+    font-size:1rem;
+    font-family:'Ubuntu',sans-serif ;
+    letter-spacing:2px;
+}
+
+.song-control-detail .song-details h4{
+    font-size:0.7rem;
+}
+
+.song-control .song-control-detail span{
+    margin: 0 2rem;
+}
+
+.song-control .song-duration-covered{
+    height: 0.3rem;
+    width: 600px;
+    border-radius:1rem ;
+    background-color:rgb(89, 89, 243);
+    box-shadow: 0 0 10px 0.5px rgb(89, 89, 243);
+}
+.song-control .song-duration{
+    width: 300px;
+    border-radius:1rem;
+    background-color:grey;
+    height: 0.3rem;
+}
